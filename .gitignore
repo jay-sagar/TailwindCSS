@@ -1,0 +1,60 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules/
+vendor/
+
+# Environment variables
+.env
+
+# Build outputs
+dist/
+build/
+out/
+coverage/
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE/editor specific files
+.idea/
+.vscode/
+*.iml
+
+# Temporary files and folders
+tmp/
+temp/
+*.swp
+*.bak
+*.pid
+*.seed
+*.pid.lock
+
+# Application-specific files
+*.sqlite
+*.sql
+*.tar.gz
+
+# Generated files
+*.class
+*.war
+*.jar
+
+# Ignore specific files for Next.js
+.next/
+.vercel/
+*.gz
+
+# Ignore for Java project (if needed)
+target/
+*.class
+
+# Ignore specific files for Spring Boot
+*.war
+*.jar
+spring.log
