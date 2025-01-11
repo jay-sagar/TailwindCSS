@@ -3,12 +3,12 @@
 @tailwind base;
 @tailwind components;
 
-.componentsAfter{
-    text-align: center;
-}
 
 @tailwind utilities;
 
+.componentsAfter{
+    text-align: center;
+}
 
 @layer components {
   .btn {
