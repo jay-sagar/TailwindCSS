@@ -14,7 +14,7 @@
     />
   </head>
   <body>
-    <div class="navbar flex justify-between items-center p-4">
+    <div class="navbar flex justify-between items-center p-4 mx-10">
       <div class="flex justify-center items-center md:order-2">
         <div class="hamburger inline-block p-4 cursor-pointer md:hidden">
           <div class="line h-0.5 w-6 my-1 bg-black"></div>
@@ -24,15 +24,22 @@
         <div class="search md:hidden">Search</div>
       </div>
       <div class="logo text-center md:order-1 flex">
-        <div>Microsoft</div>
-        <div class="featues absolute md:static w-fit md:w-auto bg-gray-200 md:bg-white inset-0 md:flex md:mx-4 md:space-x-2 -translate-x-96 md:translate-x-0">
-            <div class="fitem">Microsoft 365</div>
-            <div class="fitem">365</div>
-            <div class="fitem">Office</div>
-            <div class="fitem">Windows</div>
-            <div class="fitem">Surface</div>
-            <div class="fitem">Xbox</div>
-            <div class="fitem">Support</div> 
+        <div class="w-32">
+          <img
+            src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/UHFbanner-MSlogo?fmt=png-alpha&bfc=off&qlt=100,1"
+            alt=""
+          />
+        </div>
+        <div
+          class="featues absolute text-xs md:static w-fit md:w-auto bg-gray-200 md:bg-white inset-0 md:flex md:mx-6 md:space-x-6 -translate-x-96 md:translate-x-0 md:translate-y-2 font-normal"
+        >
+          <div class="fitem">Microsoft 365</div>
+          <div class="fitem">Teams</div>
+          <div class="fitem">Copilot</div>
+          <div class="fitem">Windows</div>
+          <div class="fitem">Surface</div>
+          <div class="fitem">Xbox</div>
+          <div class="fitem">Support</div>
         </div>
       </div>
       <div class="cart text-center md:order-3 flex">
@@ -41,13 +48,97 @@
       </div>
     </div>
 
-    <div class="slider flex flex-col-reverse md:flex-row bg-[#c2e1fe] mx-2">
-        <div class="left flex flex-col justify-center items-center md:items-baseline py-12">
-            <h1 class="text-4xl mx-5">Maximise the everyday with Microsoft 365</h1>
-            <p class="w-3/4 mx-5 text-center md:text-left">Get online protection, secure cloud storage and innovative apps designed to fit your needs – all in one plan.</p>
+    <div class="slider flex flex-col-reverse md:flex-row md:bg-[#c2e1fe]">
+      <div
+        class="left flex flex-col justify-center items-center md:items-baseline py-8 md:w-3/6 md:pl-20 shadow-md"
+      >
+        <h1 class="text-2xl md:text-4xl mx-5 font-semibold">
+          Maximise the everyday with Microsoft 365
+        </h1>
+        <p class="w-auto mx-5 text-left pt-6">
+          Get online protection, secure cloud storage and innovative apps
+          designed to fit your needs – all in one plan.
+        </p>
+        <div class="flex space-x-4 pt-6 w-96">
+          <button class="bg-[#0067b8] text-white px-4 py-2 rounded-sm cursor-pointer font-semibold">
+            For one person
+          </button>
+          <button class="text-blue-800 md:text-black font-semibold cursor-pointer">
+            For up to six people >
+          </button>
         </div>
-        <div class="right">
-            <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Slim-Multi-Canvas-M365-Anthem-Attract-Image-Create-Device:VP2-859x540" alt="">
+      </div>
+      <div class="right">
+        <img
+          src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Slim-Multi-Canvas-M365-Anthem-Attract-Image-Create-Device:VP2-859x540"
+          alt=""
+        />
+      </div>
+    </div>
+
+    <div class="promo md:flex md:justify-center md:items-baseline">
+      <div class="item flex items-center mx-4 space-x-8 justify-center pt-10">
+        <div class="flex flex-col items-center justify-center">
+          <img
+            class="w-10"
+            src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Link-List-Icons-Microsoft-365?wid=40&hei=40"
+            alt=""
+          />
+          <span class="font-semibold text-blue-800 underline cursor-pointer">Choose your Microsoft 365</span>
+        </div>
+        <div class="flex flex-col justify-center items-center">
+          <img
+            class="w-10"
+            src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Link-List-Icons-Xbox-Games-Consoles?wid=40&hei=40"
+            alt=""
+          />
+          <span class="font-semibold text-blue-800 underline cursor-pointer">Shop Xbox</span>
+        </div>
+      </div>
+      <div class="item flex items-center mx-4 space-x-8 justify-center py-10">
+        <div class="flex flex-col justify-center items-center">
+          <img
+            class="w-10"
+            src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Link-List-Icons-Microsoft-365?wid=40&hei=40"
+            alt=""
+          />
+          <span class="font-semibold text-blue-800 underline cursor-pointer">Get Windows 11</span>
+        </div>
+        <div class="flex flex-col items-center justify-center">
+          <img
+            class="w-10"
+            src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Link-List-Icons-Surface-Devices?wid=40&hei=40"
+            alt=""
+          />
+          <span class="font-semibold text-blue-800 underline cursor-pointer">Explore Surface devices</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="collections py-8 flex justify-center items-center space-x-6 mx-20">
+        <div class="flex flex-col items-start shadow-lg border w-1/4">
+            <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-XSX-CP-Xbox-Series-X?wid=380&hei=213&fit=crop" alt="Xbox Series X">
+            <span class="text-3xl font-semibold ml-6 py-5">Xbox Series X</span>
+            <span class="ml-6">The fastest, most powerful Xbox ever.</span>
+            <button class="bg-[#0067b8] ml-6 mb-5 text-white px-4 py-2 rounded-sm cursor-pointer font-semibold mt-16">Shop Xbox Series X</button>
+        </div>
+        <div class="flex flex-col shadow-lg border w-1/4">
+            <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Game-Pass-Update-September-2024?wid=380&hei=213&fit=crop" alt="Game Pass">
+            <span class="text-2xl font-medium">Game Pass</span>
+            <span>Play new games on day one. Plus, enjoy hundreds of high-quality games with friends on console and PC.</span>
+            <button class="bg-[#0067b8] text-white px-4 py-2 rounded-sm cursor-pointer font-semibold">Join now</button>
+        </div>
+        <div class="flex flex-col shadow-lg border w-1/4">
+            <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Surface-Laptop-AI-7Ed-Sapphire-MC001?wid=380&hei=213&fit=crop" alt="Surface Laptop, Copilot+ PC">
+            <span class="text-2xl font-medium">Surface Laptop, Copilot+ PC</span>
+            <span>Unlock AI features like Live Captions and Cocreator with this exceptionally powerful laptop.</span>
+            <button class="bg-[#0067b8] text-white px-4 py-2 rounded-sm cursor-pointer font-semibold">Learn more</button>
+        </div>
+        <div class="flex flex-col shadow-lg border w-1/4">
+            <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-XSS-CP-Xbox-Series-S-Evergreen?wid=380&hei=213&fit=crop" alt="Xbox Series S">
+            <span class="text-2xl font-medium">Xbox Series S</span>
+            <span>Next-gen performance in the smallest Xbox ever.</span>
+            <button class="bg-[#0067b8] text-white px-4 py-2 rounded-sm cursor-pointer font-semibold">Shop Xbox Series S</button>
         </div>
     </div>
   </body>
