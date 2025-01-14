@@ -14,14 +14,14 @@
     />
   </head>
   <body>
-    <div class="navbar flex justify-between items-center p-4 mx-10">
+    <div class="navbar flex justify-between items-center p-4 md:mx-10">
       <div class="flex justify-center items-center md:order-2">
-        <div class="hamburger inline-block p-4 cursor-pointer md:hidden">
+        <div class="hamburger inline-block px-2 cursor-pointer md:hidden">
           <div class="line h-0.5 w-6 my-1 bg-black"></div>
           <div class="line h-0.5 w-6 my-1 bg-black"></div>
           <div class="line h-0.5 w-6 my-1 bg-black"></div>
         </div>
-        <div class="search md:hidden">Search</div>
+        <img class="w-8 scale-x-[-1] md:hidden" src="https://static.vecteezy.com/system/resources/thumbnails/009/652/218/small/magnifying-glass-icon-isolated-on-white-background-search-illustration-vector.jpg" alt="">
       </div>
       <div class="logo text-center md:order-1 flex">
         <div class="w-32">
@@ -44,7 +44,8 @@
       </div>
       <div class="cart text-center md:order-3 flex">
         <div class="search md:block hidden">Search</div>
-        <div>Cart Account</div>
+        <img class="w-6" src="https://static.vecteezy.com/system/resources/previews/001/504/962/non_2x/shopping-cart-icon-free-vector.jpg" alt="cart">
+        <div>Account</div>
       </div>
     </div>
 
@@ -115,30 +116,30 @@
       </div>
     </div>
 
-    <div class="collections py-8 flex justify-center items-center space-x-6 mx-20">
-        <div class="flex flex-col items-start shadow-lg border w-1/4">
+    <div class="collections py-8 flex md:flex-row flex-col justify-center items-center space-x-6 mx-20">
+        <div class="flex flex-col items-start shadow-lg border md:w-1/4">
             <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-XSX-CP-Xbox-Series-X?wid=380&hei=213&fit=crop" alt="Xbox Series X">
             <span class="text-3xl font-semibold ml-6 py-5">Xbox Series X</span>
-            <span class="ml-6">The fastest, most powerful Xbox ever.</span>
-            <button class="bg-[#0067b8] ml-6 mb-5 text-white px-4 py-2 rounded-sm cursor-pointer font-semibold mt-16">Shop Xbox Series X</button>
+            <span class="mx-6">The fastest, most powerful Xbox ever.</span>
+            <button class="bg-[#0067b8] ml-6 mb-5 text-white px-4 py-2 rounded-sm cursor-pointer font-semibold mt-20">Shop Xbox Series X</button>
         </div>
-        <div class="flex flex-col shadow-lg border w-1/4">
+        <div class="flex flex-col shadow-lg border md:w-1/4 items-start">
             <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Game-Pass-Update-September-2024?wid=380&hei=213&fit=crop" alt="Game Pass">
-            <span class="text-2xl font-medium">Game Pass</span>
-            <span>Play new games on day one. Plus, enjoy hundreds of high-quality games with friends on console and PC.</span>
-            <button class="bg-[#0067b8] text-white px-4 py-2 rounded-sm cursor-pointer font-semibold">Join now</button>
+            <span class="text-3xl font-semibold ml-6 py-5">Game Pass</span>
+            <span class="mx-6">Play new games on day one. Plus, enjoy hundreds of high-quality games with friends on console and PC.</span>
+            <button class="bg-[#0067b8] text-white px-4 py-2 rounded-sm cursor-pointer font-semibold mt-7 ml-6 mb-5">Join now</button>
         </div>
-        <div class="flex flex-col shadow-lg border w-1/4">
+        <div class="flex flex-col shadow-lg border md:w-1/4 items-start">
             <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Surface-Laptop-AI-7Ed-Sapphire-MC001?wid=380&hei=213&fit=crop" alt="Surface Laptop, Copilot+ PC">
-            <span class="text-2xl font-medium">Surface Laptop, Copilot+ PC</span>
-            <span>Unlock AI features like Live Captions and Cocreator with this exceptionally powerful laptop.</span>
-            <button class="bg-[#0067b8] text-white px-4 py-2 rounded-sm cursor-pointer font-semibold">Learn more</button>
+            <span class="text-3xl font-semibold ml-6 py-5">Surface Laptop, Copilot+ PC</span>
+            <span class="mx-6">Unlock AI features like Live Captions and Cocreator with this exceptionally powerful laptop.</span>
+            <button class="bg-[#0067b8] text-white px-4 py-2 rounded-sm cursor-pointer font-semibold mt-3 ml-6 mb-5">Learn more</button>
         </div>
-        <div class="flex flex-col shadow-lg border w-1/4">
+        <div class="flex flex-col shadow-lg border md:w-1/4 items-start">
             <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-XSS-CP-Xbox-Series-S-Evergreen?wid=380&hei=213&fit=crop" alt="Xbox Series S">
-            <span class="text-2xl font-medium">Xbox Series S</span>
-            <span>Next-gen performance in the smallest Xbox ever.</span>
-            <button class="bg-[#0067b8] text-white px-4 py-2 rounded-sm cursor-pointer font-semibold">Shop Xbox Series S</button>
+            <span class="text-3xl font-semibold ml-6 py-5">Xbox Series S</span>
+            <span class="mx-6">Next-gen performance in the smallest Xbox ever.</span>
+            <button class="bg-[#0067b8] text-white px-4 py-2 rounded-sm cursor-pointer font-semibold mt-[4.5rem] ml-6 mb-5">Shop Xbox Series S</button>
         </div>
     </div>
   </body>
